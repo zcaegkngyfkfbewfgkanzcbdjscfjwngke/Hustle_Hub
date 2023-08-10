@@ -3,5 +3,5 @@ if not setclipboard then
 end
 
 spawn(function()
-    setclipboard("HWID: " .. game.Players.LocalPlayer.UserId)
+    setclipboard("UserID: " .. game.Players.LocalPlayer.UserId)
 end)
